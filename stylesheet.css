@@ -1,0 +1,97 @@
+/*noinspection CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget*/
+@import url(https://fonts.googleapis.com/css?family=Kanit|Shadows+Into+Light|Karma:400,500);
+
+#wrap {
+    width: 70%;
+    margin: 10px auto;
+    padding: 0 0 7px 0;
+    background-color: #f2f2f2;
+}
+
+#tabs {
+    clear:left;
+    float:left;
+    padding:0;
+    border-top:6px solid #000;
+    width:100%;
+    overflow:hidden;
+    font-family:Kanit, serif;
+}
+#tabs ul {
+    float:left;
+    margin:0;
+    padding:0 0 15px 0;
+    list-style:none;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+#tabs ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+}
+#tabs ul li a {
+    display:block;
+    float:left;
+    margin:0 1px 0 0;
+    padding:30px 10px 6px 10px;
+    background:#000;
+    text-decoration:none;
+    color:#fff;
+}
+#tabs ul li a:hover {
+    padding:35px 10px 6px 10px;
+}
+#tabs ul li.active a,
+#tabs ul li.active a:hover {
+    padding:40px 10px 6px 10px;
+}
+
+h1 {
+    background-color: #069;
+    padding: 8px;
+    margin: 0;
+    color: #eeeeee;
+    text-align: center;
+    font-family: Kanit, sans-serif;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-family: Shadows Into Light, sans-serif;
+    color: #552A00;
+    text-shadow: 0 0 4px rgba(0, 0, 255, .4);
+}
+
+#content {
+    font-family: Karma, serif;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 4%;
+    padding: 0;
+    background-color: black;
+}
+
+.img-container {
+    width: 50%;
+    margin: 0 20px 0 5px;
+    filter: drop-shadow(15px 17px 2px black) brightness(100%);
+    float: right;
+
+}
+
+.clear {
+    clear: both;
+}
