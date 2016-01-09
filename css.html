@@ -12,69 +12,79 @@
 <div id="wrap">
 
     <h1>Bunty's Web Development Progress</h1>
-    <div id="tabs">
-        <ul>
-            <li><a href="index.html">Process and Planning</a>
-            </li>
-            <li><a href="html.html">HTML</a>
-            </li>
-            <li class="active"><a href="css.html">CSS</a>
-            </li>
-            <li><a href="github.html">Github</a>
-            </li>
-            <li><a href="closingthoughts.html">Conclusion</a>
-            </li>
-        </ul>
-    </div>
+    <nav>
+        <h1 class="outline">--- Main Navigation ---</h1>
 
-    <div id="content">
-        <h2>CSS</h2>
-        <p>Learning CSS this time around has been a whole other animal entirely. While I recognized certain elements in
-            the stylesheet, I never knew the names nor how to write the CSS from scratch. this will be a test of
-            knowledge and memory if I can regurgitate
-            everything I've been learning.</p>
-
-        <p>With CSS, I should be able to do the following:</p>
-
-        <ol>
-            <li>Work with text
-                <ul>
-                    <li>installing fonts</li>
-                    <li>Sizing Text</li>
-                    <li>Spacing Text</li>
-                    <li>Decorating text</li>
-                </ul>
-            </li>
-
-            <li>Understand styling selectors
+        <div id="tabs">
             <ul>
-                <li>tags</li>
-                <li>parent > child relationships</li>
-                <li>ancestor > descendants relationship</li>
-                <li>selectors</li>
-                <li>:pseudo-selectors</li>
-                <li>[attribute-selectors]</li>
+                <li class="first"><a href="index.html"><section><h2>Process and Planning</h2></section></a>
+                </li>
+                <li><a href="html.html"><section><h2>HTML</h2></section></a>
+                </li>
+                <li class="active"><a href="css.html"><section><h2>CSS</h2></section></a>
+                </li>
+                <li><a href="github.html"><section><h2>Github</h2></section></a>
+                </li>
+                <li class="last"><a href="closingthoughts.html"><section><h2>Conclusion</h2></section></a>
+                </li>
             </ul>
-            </li>
-            <li>Box Model
-            <ul>
-                <li>Height, width</li>
-                <li>padding</li>
-                <li>borders</li>
-                <li>margin</li>
-            </ul>
-            </li>
-            <li>Advanced stuff
-            <ul>
-                <li>Layout and positioning</li>
-                <li>Flexbox</li>
-                <li>Media queries</li>
-            </ul>
-            </li>
-        </ol>
+        </div>
+    </nav>
+    <section>
+        <h1 class="outline">--- Content ---</h1>
 
-    </div>
+        <div id="content">
+            <section>
+                <h3>CSS</h3>
+                <p>Learning CSS this time around has been a whole other animal entirely. While I recognized certain elements in
+                    the stylesheet, I never knew the names nor how to write the CSS from scratch. this will be a test of
+                    knowledge and memory if I can regurgitate
+                    everything I've been learning.</p>
 
+                <p>With CSS, I should be able to do the following:</p>
+
+                <ol>
+                    <li>
+
+                        <h4>Work with text</h4>
+                        <ul>
+                            <li><h5>installing fonts</h5></li>
+                            <li><h5>Sizing Text</h5></li>
+                            <li><h5>Spacing Text</h5></li>
+                            <li><h5>Decorating text</h5></li>
+                        </ul>
+
+                    </li>
+
+                    <li><h4>Understand styling selectors</h4>
+                        <ul>
+                            <li><h5>tags</h5></li>
+                            <li><h5>parent > child relationships</h5></li>
+                            <li><h5>ancestor > descendants relationship</h5></li>
+                            <li><h5>selectors</h5></li>
+                            <li><h5>:pseudo-selectors</h5></li>
+                            <li><h5>[attribute-selectors]</h5></li>
+                        </ul>
+                    </li>
+                    <li><h4>Box Model</h4>
+                        <ul>
+                            <li><h5>Height, width</h5></li>
+                            <li><h5>padding</h5></li>
+                            <li><h5>borders</h5></li>
+                            <li><h5>margin</h5></li>
+                        </ul>
+                    </li>
+                    <li><h4>Advanced stuff</h4>
+                        <ul>
+                            <li><h5>Layout and positioning</h5></li>
+                            <li><h5>Flexbox</h5></li>
+                            <li><h5>Media queries</h5></li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+        </div>
+    </section>
 </div>
 
 </body>

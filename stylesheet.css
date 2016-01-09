@@ -1,67 +1,74 @@
 /*noinspection CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget,CssUnknownTarget*/
-@import url(https://fonts.googleapis.com/css?family=Kanit|Shadows+Into+Light|Karma:400,500);
 
+@import url(https://fonts.googleapis.com/css?family=Kanit|Shadows+Into+Light|Karma:400,500);
 #wrap {
     width: 70%;
     margin: 10px auto;
     padding: 0 0 7px 0;
     background-color: #f2f2f2;
 }
-
 #tabs {
-    clear:left;
-    float:left;
-    padding:0;
-    border-top:6px solid #000;
-    width:100%;
-    overflow:hidden;
-    font-family:Kanit, serif;
+    clear: left;
+    float: left;
+    padding: 0;
+    border-top: 6px solid #000;
+    width: 100%;
+    overflow: hidden;
 }
 #tabs ul {
-    float:left;
-    margin:0;
-    padding:0 0 15px 0;
-    list-style:none;
-    position:relative;
-    left:50%;
-    text-align:center;
+    float: left;
+    margin: 0;
+    padding: 0 0 15px 0;
+    list-style: none;
+    position: relative;
+    left: 50%;
+    text-align: center;
 }
 #tabs ul li {
-    display:block;
-    float:left;
-    list-style:none;
-    margin:0;
-    padding:0;
-    position:relative;
-    right:50%;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 50%;
 }
 #tabs ul li a {
-    display:block;
-    float:left;
-    margin:0 1px 0 0;
-    padding:30px 10px 6px 10px;
-    background:#000;
-    text-decoration:none;
-    color:#fff;
+    display: block;
+    float: left;
+    margin: 0 1px 0 0;
+    padding: 30px 10px 6px 10px;
+    background: #000;
+    text-decoration: none;
+    color: #fff;
 }
 #tabs ul li a:hover {
-    padding:35px 10px 6px 10px;
+    padding: 35px 10px 6px 10px;
 }
 #tabs ul li.active a,
 #tabs ul li.active a:hover {
-    padding:40px 10px 6px 10px;
+    padding: 40px 10px 6px 10px;
 }
-
 h1 {
-    background-color: #069;
+    background: url(http://static1.squarespace.com/static/55fe979de4b0fc002cb3f625/t/56138a68e4b050bca10784b6/1444121195385/jeep.jpg) 0 -15px;
+    background-size: cover;
     padding: 8px;
     margin: 0;
-    color: #eeeeee;
+    color: #ffffff;
     text-align: center;
     font-family: Kanit, sans-serif;
 }
 
 h2 {
+    font-family: Kanit, serif;
+    font-size: 1em;
+}
+
+h1.outline, .outline {
+    display: none;
+}
+
+h3 {
     margin-top: 0;
     padding-top: 0;
     text-align: center;
@@ -70,12 +77,19 @@ h2 {
     text-shadow: 0 0 4px rgba(0, 0, 255, .4);
 }
 
+h4 {
+    margin: 0;
+    font-weight: normal;
+}
+h5 {
+    margin: 0;
+    font-weight: normal;
+}
 #content {
     font-family: Karma, serif;
     padding: 0 10px;
     text-align: justify;
 }
-
 img {
     width: 100%;
     border: 2px solid black;
@@ -83,15 +97,12 @@ img {
     padding: 0;
     background-color: black;
 }
-
 .img-container {
     width: 50%;
     margin: 0 20px 0 5px;
     filter: drop-shadow(15px 17px 2px black) brightness(100%);
     float: right;
-
 }
-
 .clear {
     clear: both;
 }
